@@ -29,6 +29,7 @@ button {
 #tutorial {
   display: none;
 }
+
 .tutorial-visible {
   height: 80%;
   width: 80%;
@@ -375,16 +376,16 @@ button {
 }
 
 .difficulty{
-  padding-bottom: 52px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
 #tutorial-reset {
   margin-top: 125px;
+  padding-bottom: -300px;
   display: none;
-  padding-bottom: 80px;
+  padding-bottom: -20px;
 }
-
 
 #answer-well{
   margin-top: 125px;
@@ -409,24 +410,91 @@ button {
   padding-top: 35px;
 }
 
+.end-game {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.end-game {
+  font-weight: bold;
+  font-size: 7em;
+  text-align: center;
+  padding-top: 120px;
+}
+
 #player-win-game-well {
+  background-color: rgba(214, 190, 202, 0.80);
   display: none;
+  position: absolute;
+  width: 66vw;
+  height: 38vw;
+  z-index: 1;
 }
 
 #player-lose-game-well {
+  background-color: rgba(214, 190, 202, 0.80);
   display: none;
+  position: absolute;
+  width: 66vw;
+  height: 38vw;
+  z-index: 1;
+}
+
+.end-round {
+  font-weight: bold;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 100px;
 }
 
 #player-win-round-well {
+  background-color: rgba(214, 190, 202, 0.80);
   display: none;
+  position: absolute;
+  width: 66vw;
+  height: 20vw;
+  z-index: 1;
 }
 
 #player-lose-round-well {
+  background-color: rgba(214, 190, 202, 0.80);
   display: none;
+  position: absolute;
+  width: 66vw;
+  height: 20vw;
+  z-index: 1;
 }
 
 #new-game-button {
   text-align: center;
+  margin: -20px;
+}
+
+#easy-button {
+  width: 65%;
+  height: 35px;
+  border-radius: 20px;
+}
+
+#medium-button {
+  width: 65%;
+  height: 35px;
+  border-radius: 20px;
+}
+
+#hard-button {
+  width: 65%;
+  height: 35px;
+  border-radius: 20px;
+}
+
+#new-game-actual-button {
+  margin-bottom: -50px;
+  margin-top: 5px;
+
+  width: 30%;
+  height: 45px;
+  border-radius: 30px;
 }
 
 .well {
@@ -436,11 +504,28 @@ button {
   background-color: rgba(214, 190, 202, 0.65);
 }
 
+.play-again-win-lose-well {
+  width: 85%;
+  height: 45px;
+  border-radius: 30px;
+}
+
 #restart-game {
-  display: none;
-  margin-top: 25px;
-  min-width: 200px;
-  min-height: 75px;
+  width: 85%;
+  height: 45px;
+  border-radius: 30px;
+}
+
+#showTutorial {
+  width: 85%;
+  height: 40px;
+  border-radius: 30px;
+}
+
+#show-tutorial-initiate-well {
+  width: 50%;
+  margin: -30px;
+  height: 40px;
   border-radius: 30px;
 }
 
@@ -462,7 +547,7 @@ button {
 #initiate-game {
   margin: 30px auto;
   width: 1140px;
-  padding-bottom: 56px;
+  padding-bottom: 64px;
   border-radius: 50px;
 
 }

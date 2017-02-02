@@ -224,13 +224,20 @@ $(document).ready(function(){
 
   });
 
+  $("#show-tutorial-initiate-well").click(function(){
+    console.log("hello");
+    $("#tutorial").toggle();
+    $("#tutorial").addClass("tutorial-visible");
+
+  });
+
   $("#hideTutorial").click(function(){
     console.log("hello");
     $("#tutorial").toggle();
 
   });
 
-  
+
 
 
   $("#new-game-button").click(function() {
