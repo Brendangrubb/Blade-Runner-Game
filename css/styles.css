@@ -94,115 +94,6 @@ button {
   font-family: 'Roboto', sans-serif;
 }
 
-#worriedLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-  padding-left: 0px;
-  padding-right:100px;
-}
-
-#rudeLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-  padding-left: 0px;
-  padding-right:100px;
-}
-
-#focusedLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-  padding-left: 0px;
-  padding-right:100px;
-}
-
-#subduedLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-  padding-left: 0px;
-  padding-right:100px;
-}
-
-#disgustLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-  padding-left: 0px;
-  padding-right:100px;
-}
-
-#anxietyLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-  padding-left: 0px;
-  padding-right:100px;
-}
-
-#reservedLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-  padding-left: 30px;
-}
-
-#distractedLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-  padding-left: 50px;
-}
-
-#fearLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-  padding-left: 85px;
-}
-
-#unsureLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-  padding-left: 75px;
-}
-
-#angerLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-  padding-left: 9px;
-}
-
-#animatedLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-  padding-left: 10px;
-}
-
-#distantLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-  padding-left: 10px;
-}
-
-#sadnessLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75);
-}
-
-#agitatedLabel {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75)
-}
-
-#feeling-group-label {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75)
-}
-
-#tone-group-label {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75)
-}
-
-#intensity-group-label {
-  font-weight: bolder;
-  color: rgba(240, 233, 237, 0.75)
-}
-
 /* Pentagon*/
 .triangle-bottom {
   	width: 0;
@@ -552,15 +443,113 @@ button {
 
 }
 
+.tutorial-btn {
+  padding: 20px;
+  text-align: center;
+}
+
 input {
     visibility:hidden;
 }
 
-input:checked + label {
-    /*background-color: black;*/
+label {
+  color: rgba(240, 233, 237, 0.75);
 }
 
-.tutorial-btn {
-  padding: 20px;
-  text-align: center;
+input:checked + label {
+  color: rgba(189, 186, 44, 1);
+}
+
+#worriedLabel {
+  font-weight: bolder;
+  padding-left: 0px;
+  padding-right:100px;
+}
+
+#rudeLabel {
+  font-weight: bolder;
+  padding-left: 0px;
+  padding-right:100px;
+}
+
+#focusedLabel {
+  font-weight: bolder;
+  padding-left: 0px;
+  padding-right:100px;
+}
+
+#subduedLabel {
+  font-weight: bolder;
+  padding-left: 0px;
+  padding-right:100px;
+}
+
+#disgustLabel {
+  font-weight: bolder;
+  padding-left: 0px;
+  padding-right:100px;
+}
+
+#anxietyLabel {
+  font-weight: bolder;
+  padding-left: 0px;
+  padding-right:100px;
+}
+
+#reservedLabel {
+  font-weight: bolder;
+  padding-left: 30px;
+}
+
+#distractedLabel {
+  font-weight: bolder;
+  padding-left: 50px;
+}
+
+#fearLabel {
+  font-weight: bolder;
+  padding-left: 85px;
+}
+
+#unsureLabel {
+  font-weight: bolder;
+  padding-left: 75px;
+}
+
+#angerLabel {
+  font-weight: bolder;
+  padding-left: 9px;
+}
+
+#animatedLabel {
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+#distantLabel {
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+#sadnessLabel {
+  font-weight: bolder;
+}
+
+#agitatedLabel {
+  font-weight: bolder;
+}
+
+#feeling-group-label {
+  font-weight: bolder;
+  color: rgba(240, 233, 237, 0.75)
+}
+
+#tone-group-label {
+  font-weight: bolder;
+  color: rgba(240, 233, 237, 0.75)
+}
+
+#intensity-group-label {
+  font-weight: bolder;
+  color: rgba(240, 233, 237, 0.75)
 }
